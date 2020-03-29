@@ -2,7 +2,7 @@
 //register.php
 !-->
 
-<?php
+
 
 //include('database_connection.php');
 
