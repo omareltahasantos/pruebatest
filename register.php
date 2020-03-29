@@ -4,56 +4,6 @@
 
 
 
-//include('database_connection.php');
-
-//session_start();
-/*
-$message = '';
-
-if(isset($_SESSION['user_id']))
-{
-	header('location:index.php');
-}
-
-if(isset($_POST["register"]))
-{
-	$username = trim($_POST["username"]);
-	$password = trim($_POST["password"]);
-
-	$login = new login($objPDO, "=","username", $username);
-
-	
-	$usuario = $login->getusername();
-	$user_id = $login->getuser_id();
-	$contrasenya = $login->getpassword();
-
-	if( $usuario != ""){
-		$message .= '<p><label>Username already taken</label></p>';
-	}
-	if(empty($password))
-			{
-				$message .= '<p><label>Password is required</label></p>';
-			}else{
-				if($password != $_POST['confirm_password'])
-				{
-					$message .= '<p><label>Password not match</label></p>';
-				}
-			}
-			if($message == ''){
-				$username = trim($_POST["username"]);
-				$passwordencrypt = password_hash($password, PASSWORD_DEFAULT);
-
-				$login = new login($objPDO);
-				$login->setusername($username)->setpassword($password)->save();
-				$message = "<label>Registration Completed</label>";
-				
-			}
-}
-	
-
-
-?>
-*/
 <html>  
     <head>  
         <title>Chat Application using PHP Ajax Jquery</title>  
