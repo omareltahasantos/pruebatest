@@ -4,10 +4,10 @@
 
 <?php
 
-include('database_connection.php');
+//include('database_connection.php');
 
-session_start();
-
+//session_start();
+/*
 $message = '';
 
 if(isset($_SESSION['user_id']))
@@ -53,7 +53,7 @@ if(isset($_POST["register"]))
 
 
 ?>
-
+*/
 <html>  
     <head>  
         <title>Chat Application using PHP Ajax Jquery</title>  
