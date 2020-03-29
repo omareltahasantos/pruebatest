@@ -2,7 +2,9 @@
 //register.php
 !-->
 
-
+<?php
+echo "Hola";
+?>
 
 <html>  
     <head>  
