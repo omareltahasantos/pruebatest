@@ -8,8 +8,9 @@ require("chatMessageMapping.php");
 require("loginDetailsMapping.php");
 
 //$connect = new PDO("pgsql:host=localhost;port=5432;dbname=omar;user=omar;password=APTItude01");
-$strDSN = "pgsql:dbname=omar;host=localhost;port=5432";
-   $objPDO = PDOFactory::GetPDO($strDSN, "omar", "APTItude01", 
+$strDSN = "pgsql:dbname=da6fucdbb9g9vd;host=ec2-46-137-177-160.eu-west-1.compute.amazonaws.com
+;port=5432";
+   $objPDO = PDOFactory::GetPDO($strDSN, "fcnlbfuyyoxhxb", "4297280e8c527dd9272cd8cf0f2ae4b3f0c77760f17f3fc858585d7324d2ea43", 
        array());
    $objPDO->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
